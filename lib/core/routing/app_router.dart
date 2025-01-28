@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:food_go/core/di/dependency_injection.dart';
 import 'package:food_go/core/routing/routes_names.dart';
-import 'package:food_go/features/home/home_screen.dart';
+import 'package:food_go/features/home/ui/home_layout_screen.dart';
+
+import '../../features/home/logic/home_cubit.dart';
 
 
 class AppRouter {
@@ -9,7 +13,9 @@ class AppRouter {
     switch (settings.name) {
       case Routes.homeLayout:
         return MaterialPageRoute(
-          builder: (_) => const HomeScreen(),
+          builder: (_) => BlocProvider(
+              create: (context) => getIt<HomeLayoutCubit>(),
+              child: const HomeLayoutScreen()),
         );
 
       default:
