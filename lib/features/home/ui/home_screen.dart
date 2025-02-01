@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_go/features/home/widgets/home_header.dart';
+import 'package:food_go/features/home/widgets/search_bar_and_icon.dart';
 
 class HomeScreen extends StatelessWidget{
   const HomeScreen({super.key});
@@ -11,8 +12,10 @@ class HomeScreen extends StatelessWidget{
         child: Padding(
           padding: EdgeInsets.all(16.0),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               HomeHeader(),
+              SearchBarAndIcon(),
             ],
           ),
         ),
