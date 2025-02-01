@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_go/features/home/widgets/home_header.dart';
+import 'package:food_go/features/home/widgets/list_of_categories.dart';
 import 'package:food_go/features/home/widgets/search_bar_and_icon.dart';
 
 class HomeScreen extends StatelessWidget{
@@ -16,6 +17,7 @@ class HomeScreen extends StatelessWidget{
             children: [
               HomeHeader(),
               SearchBarAndIcon(),
+              ListOfCategories(),
             ],
           ),
         ),
