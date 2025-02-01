@@ -29,7 +29,7 @@ class ItemOfCategoriesList extends StatelessWidget {
       padding: EdgeInsetsDirectional.only(
         start: itemIndex == 0 ? 0 : 8.w,
         top: 16.h,
-        bottom: 16.h,
+        bottom: 20.h,
       ),
       child: Container(
         padding: EdgeInsets.symmetric(horizontal: 10.w, vertical: 8.h),

@@ -46,7 +46,7 @@ class AppTextStyles {
 
   static TextStyle font14Black = GoogleFonts.roboto(
     fontSize: 14.sp,
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.w600,
     color: AppColors.darkBrown,
   );
 
