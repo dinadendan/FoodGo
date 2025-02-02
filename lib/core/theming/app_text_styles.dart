@@ -21,6 +21,11 @@ class AppTextStyles {
     fontWeight: FontWeight.w500,
     color: AppColors.white,
   );
+  static TextStyle font20Black = GoogleFonts.roboto(
+    fontSize: 20.sp,
+    fontWeight: FontWeight.w600,
+    color: AppColors.darkBrown,
+  );
 
   static TextStyle font16Black = GoogleFonts.roboto(
     fontSize: 16.sp,
@@ -29,7 +34,7 @@ class AppTextStyles {
   );
   static TextStyle font16Grey = GoogleFonts.roboto(
     fontSize: 16.sp,
-    fontWeight: FontWeight.w400,
+    fontWeight: FontWeight.w600,
     color: AppColors.grey,
   );
   static TextStyle font16White = GoogleFonts.roboto(
@@ -55,8 +60,8 @@ class AppTextStyles {
     fontWeight: FontWeight.w500,
     color: AppColors.green,
   );
-  static TextStyle font25BlackBold = GoogleFonts.roboto(
-    fontSize: 25.sp,
+  static TextStyle font24BlackBold = GoogleFonts.roboto(
+    fontSize: 24.sp,
     fontWeight: FontWeight.w600,
     color: AppColors.darkBrown,
   );

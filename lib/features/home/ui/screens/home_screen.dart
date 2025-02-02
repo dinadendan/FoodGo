@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:food_go/features/home/widgets/grid_of_food.dart';
-import 'package:food_go/features/home/widgets/home_header.dart';
-import 'package:food_go/features/home/widgets/list_of_categories.dart';
-import 'package:food_go/features/home/widgets/search_bar_and_icon.dart';
+import 'package:food_go/features/home/ui/widgets/grid_of_food.dart';
+import 'package:food_go/features/home/ui/widgets/home_header.dart';
+import 'package:food_go/features/home/ui/widgets/list_of_categories.dart';
+import 'package:food_go/features/home/ui/widgets/search_bar_and_icon.dart';
 
 class HomeScreen extends StatelessWidget{
   const HomeScreen({super.key});

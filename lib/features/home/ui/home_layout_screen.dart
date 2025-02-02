@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:food_go/features/home/logic/home_cubit.dart';
 import 'package:food_go/features/home/logic/home_states.dart';
-import 'package:food_go/features/home/widgets/curved_bottom_navigation.dart';
+import 'package:food_go/features/home/ui/widgets/curved_bottom_navigation.dart';
 
 class HomeLayoutScreen extends StatelessWidget{
   const HomeLayoutScreen({super.key});

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:food_go/core/helper/extension.dart';
 import 'package:food_go/core/helper/spacing.dart';
+import 'package:food_go/core/routing/routes_names.dart';
 import 'package:food_go/core/theming/app_text_styles.dart';
 
 class ItemOfFoodGrid extends StatelessWidget {
@@ -10,7 +12,9 @@ class ItemOfFoodGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: (){},
+      onTap: (){
+          context.pushNamed(Routes.foodDetails);
+      },
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Container(
@@ -33,6 +37,7 @@ class ItemOfFoodGrid extends StatelessWidget {
                 child: Image.asset(
                   'assets/images/burger.png',
                   fit: BoxFit.cover,
+                  height: 120.h,
                 ),
               ),
               Padding(
