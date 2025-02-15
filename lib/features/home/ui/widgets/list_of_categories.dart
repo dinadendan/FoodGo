@@ -24,7 +24,7 @@ class _ListOfCategoriesState extends State<ListOfCategories> {
             });
           },
             child: ItemOfCategoriesList(itemIndex: index, selectedIndex: selectedIndex,)),
-        itemCount: 5,
+        itemCount: 6,
       ),
     );
   }

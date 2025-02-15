@@ -15,10 +15,11 @@ class ItemOfCategoriesList extends StatelessWidget {
 
   static const List<String> categoryNames = [
     "All",
-    "Electronics",
-    "Jewelery",
-    "Clothing",
-    "Clothing",
+    "Beef Burgers",
+    "Chicken ",
+    "Seafood",
+    "Vegetarian",
+    "Mini & Specialty",
   ];
 
   @override
