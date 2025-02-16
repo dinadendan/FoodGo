@@ -1,0 +1,92 @@
+[
+  {
+    "category": "Beef",
+    "name": "Classic Beef Burger",
+    "image": "https://th.bing.com/th/id/OIP.3_F2oR0JPkFZyJeXPd1JYAHaHa?rs=1&pid=ImgDetMain",
+    "description": "A timeless favorite featuring a juicy beef patty with fresh toppings.",
+    "ingredients": ["Beef patty", "Lettuce", "Tomato", "Onion", "Pickles", "Ketchup", "Mustard", "Mayonnaise", "Sesame seed bun"],
+    "price": 80,
+    "rate": 4.5
+  },
+  {
+    "category": "Beef",
+    "name": "Cheese Burger",
+    "image" :"https://buffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2F802131a7b4dd1d3a1ca23625a53082c3.png&w=256&q=75",
+    "description": "A classic beef burger with melted cheddar cheese for extra flavor.",
+    "ingredients": ["Beef patty", "Cheddar cheese", "Lettuce", "Tomato", "Onion", "Pickles", "Ketchup", "Mustard", "Mayonnaise", "Bun"],
+    "price": 99,
+    "rate": 4.7
+  },
+  {
+    "category": "Beef",
+    "name": "Double Cheeseburger",
+    "image": "https://th.bing.com/th/id/OIP.AcC9Ow1FvJR4U4S9lD8qIwHaEc?rs=1&pid=ImgDetMain",
+    "description": "Twice the beef and cheese for an indulgent experience.",
+    "ingredients": ["Two beef patties", "Two slices of cheese", "Lettuce", "Tomato", "Onion", "Pickles", "Ketchup", "Mustard", "Mayonnaise", "Bun"],
+    "price": 140,
+    "rate": 4.8
+  },
+  {
+    "category": "Beef",
+    "name": "Blue Cheese",
+    "description": "A Crumbles of creamy French blue cheese and caramelized onions.",
+    "image": "https://buffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2Fb75ecb94aa633b1545de1318f9ca6d00.png&w=256&q=75",
+    "ingredients": ["Beef patty", "Blue cheese", "Caramelized onions", "Lettuce", "Tomato", "Bun"],
+    "price": 150,
+    "rate": 4.6
+  },
+  {
+    "category": "Beef",
+    "name": "Charbroiled BBQ",
+    "image": "https://buffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3.eu-west-1.amazonaws.com%2Fmenu_items%2F52c2c0cb4355e196903e8a64ebe94da0.png&w=256&q=75",
+    "description": "A smoky BBQ sauce burger with crispy onion rings",
+    "ingredients": ["Beef patty", "Cheddar cheese", "Crispy onion rings", "BBQ sauce", "Lettuce", "Tomato", "Bun"],
+    "price": 124.99,
+    "rate": 4.7
+  },
+  {
+    "category": "Chicken",
+    "name": "Turkey Burger",
+    "image": "https://th.bing.com/th/id/OIP.gc8JZBZd7wiuO_he0SBMKAAAAA?rs=1&pid=ImgDetMain",
+    "description": "A lean and tasty alternative with a juicy turkey patty.",
+    "ingredients": ["Turkey patty", "Lettuce", "Tomato", "Onion", "Cranberry sauce", "Mayonnaise", "Bun"],
+    "price": 160,
+    "rate": 4.6
+  },
+  {
+    "category": "Seafood",
+    "name": "Fish Burger",
+    "image": "https://th.bing.com/th/id/OIP.4BETORT0n6SQoIQALyhKzQHaHa?w=980&h=980&rs=1&pid=ImgDetMain",
+    "description": "A crispy or grilled fish fillet burger with fresh toppings.",
+    "ingredients": ["Fried or grilled fish fillet", "Lettuce", "Tartar sauce", "Bun"],
+    "price": 190,
+    "rate": 4.7
+  },
+  {
+    "category": "Vegetarian",
+    "name": "Black Bean Burger",
+    "image": "https://img.freepik.com/premium-photo/tasty-burger-fast-food-meal-isolated-white-background_986042-886.jpg",
+    "description": "A hearty and flavorful black bean patty for a healthy twist.",
+    "ingredients": ["Black bean patty", "Lettuce", "Tomato", "Onion", "Avocado", "Mayonnaise", "Bun"],
+    "price": 150,
+    "rate": 4.5
+  },
+  {
+    "category": "Specialty",
+    "name": "Shiitake Mushroom",
+    "image": "https://buffaloburger.com/_next/image?url=https%3A%2F%2Fbuffalonlineorderingprod.s3-accelerate.amazonaws.com%2Fmenu_items%2Fa76de047b66f2511962b600232c60769.png&w=256&q=75",
+    "description": "Sautéed mushroom, cheddar cheese, and creamy mayonnaise spread on top",
+    "ingredients": ["Beef patty", "Shiitake mushrooms", "Cheddar cheese", "Mayonnaise", "Bun"],
+    "price": 80.99,
+    "rate": 4.4
+  },
+  {
+    "category": "Specialty",
+    "name": "Smash Burger",
+    "image": "https://th.bing.com/th/id/OIP.Xo9plKeZzPgYzeuqtNQGhQHaFn?w=211&h=180&c=7&r=0&o=5&pid=1.7",
+    "description": "Thin smashed beef patty with crispy edges and rich flavor.",
+    "ingredients": ["Thin smashed beef patty", "American cheese", "Pickles", "Grilled onions", "Burger sauce", "Bun"],
+    "price": 100.99,
+    "rate": 4.7
+  }
+]
