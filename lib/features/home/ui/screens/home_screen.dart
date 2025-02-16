@@ -25,7 +25,6 @@ class HomeScreen extends StatelessWidget{
                 SearchBarAndIcon(),
                 ListOfCategories(),
                 BurgerBlocBuilder(),
-                // GridOfFood(isLoading: false,),
               ],
             ),
           ),

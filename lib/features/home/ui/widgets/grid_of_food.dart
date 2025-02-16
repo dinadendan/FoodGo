@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:food_go/core/di/dependency_injection.dart';
 import 'package:food_go/features/home/data/models/burger_model.dart';
+import 'package:food_go/features/home/logic/home_cubit.dart';
+import 'package:food_go/features/home/ui/screens/burger_details.dart';
 import 'package:food_go/features/home/ui/widgets/food_shimmer.dart';
 import 'package:food_go/features/home/ui/widgets/item_of_food_grid.dart';
 
@@ -23,7 +27,14 @@ class GridOfFood extends StatelessWidget{
               childAspectRatio: 1 / 1.2, // Aspect ratio of the items
             ),
             delegate: SliverChildBuilderDelegate(
-                  (BuildContext context, int index) => isLoading ? const FoodShimmerGrid() :  ItemOfFoodGrid(burgers: burgers[index]),
+                  (BuildContext context, int index) => isLoading ? const FoodShimmerGrid() :  ItemOfFoodGrid(
+                      burgers: burgers[index],
+                    onTap: () {
+                      Navigator.push(context, MaterialPageRoute(
+                          builder: (context) => BlocProvider.value(
+                              value:getIt<HomeCubit>(),
+                              child: BurgerDetails(burgers: burgers[index],))));
+                    },),
               childCount: burgers.length,
             ),
           ),

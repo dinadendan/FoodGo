@@ -16,4 +16,8 @@ class HomeState with _$HomeState {
   const factory HomeState.burgerByCategoryLoading() = BurgerByCategoryLoading;
   const factory HomeState.burgerByCategorySuccess(List<BurgerModel> burgers) = BurgerByCategorySuccess;
   const factory HomeState.burgerByCategoryError(String errorMessage) = BurgerByCategoryError;
+
+
+  const factory HomeState.homePortionUpdated(int portionCount) = HomePortionUpdated;
+
 }

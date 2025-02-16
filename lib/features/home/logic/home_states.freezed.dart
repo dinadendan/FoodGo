@@ -27,6 +27,7 @@ mixin _$HomeState {
     required TResult Function(List<BurgerModel> burgers)
         burgerByCategorySuccess,
     required TResult Function(String errorMessage) burgerByCategoryError,
+    required TResult Function(int portionCount) homePortionUpdated,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -39,6 +40,7 @@ mixin _$HomeState {
     TResult? Function()? burgerByCategoryLoading,
     TResult? Function(List<BurgerModel> burgers)? burgerByCategorySuccess,
     TResult? Function(String errorMessage)? burgerByCategoryError,
+    TResult? Function(int portionCount)? homePortionUpdated,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -51,6 +53,7 @@ mixin _$HomeState {
     TResult Function()? burgerByCategoryLoading,
     TResult Function(List<BurgerModel> burgers)? burgerByCategorySuccess,
     TResult Function(String errorMessage)? burgerByCategoryError,
+    TResult Function(int portionCount)? homePortionUpdated,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -68,6 +71,7 @@ mixin _$HomeState {
         burgerByCategorySuccess,
     required TResult Function(BurgerByCategoryError value)
         burgerByCategoryError,
+    required TResult Function(HomePortionUpdated value) homePortionUpdated,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -80,6 +84,7 @@ mixin _$HomeState {
     TResult? Function(BurgerByCategoryLoading value)? burgerByCategoryLoading,
     TResult? Function(BurgerByCategorySuccess value)? burgerByCategorySuccess,
     TResult? Function(BurgerByCategoryError value)? burgerByCategoryError,
+    TResult? Function(HomePortionUpdated value)? homePortionUpdated,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -92,6 +97,7 @@ mixin _$HomeState {
     TResult Function(BurgerByCategoryLoading value)? burgerByCategoryLoading,
     TResult Function(BurgerByCategorySuccess value)? burgerByCategorySuccess,
     TResult Function(BurgerByCategoryError value)? burgerByCategoryError,
+    TResult Function(HomePortionUpdated value)? homePortionUpdated,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -167,6 +173,7 @@ class _$InitialImpl implements _Initial {
     required TResult Function(List<BurgerModel> burgers)
         burgerByCategorySuccess,
     required TResult Function(String errorMessage) burgerByCategoryError,
+    required TResult Function(int portionCount) homePortionUpdated,
   }) {
     return initial();
   }
@@ -182,6 +189,7 @@ class _$InitialImpl implements _Initial {
     TResult? Function()? burgerByCategoryLoading,
     TResult? Function(List<BurgerModel> burgers)? burgerByCategorySuccess,
     TResult? Function(String errorMessage)? burgerByCategoryError,
+    TResult? Function(int portionCount)? homePortionUpdated,
   }) {
     return initial?.call();
   }
@@ -197,6 +205,7 @@ class _$InitialImpl implements _Initial {
     TResult Function()? burgerByCategoryLoading,
     TResult Function(List<BurgerModel> burgers)? burgerByCategorySuccess,
     TResult Function(String errorMessage)? burgerByCategoryError,
+    TResult Function(int portionCount)? homePortionUpdated,
     required TResult orElse(),
   }) {
     if (initial != null) {
@@ -220,6 +229,7 @@ class _$InitialImpl implements _Initial {
         burgerByCategorySuccess,
     required TResult Function(BurgerByCategoryError value)
         burgerByCategoryError,
+    required TResult Function(HomePortionUpdated value) homePortionUpdated,
   }) {
     return initial(this);
   }
@@ -235,6 +245,7 @@ class _$InitialImpl implements _Initial {
     TResult? Function(BurgerByCategoryLoading value)? burgerByCategoryLoading,
     TResult? Function(BurgerByCategorySuccess value)? burgerByCategorySuccess,
     TResult? Function(BurgerByCategoryError value)? burgerByCategoryError,
+    TResult? Function(HomePortionUpdated value)? homePortionUpdated,
   }) {
     return initial?.call(this);
   }
@@ -250,6 +261,7 @@ class _$InitialImpl implements _Initial {
     TResult Function(BurgerByCategoryLoading value)? burgerByCategoryLoading,
     TResult Function(BurgerByCategorySuccess value)? burgerByCategorySuccess,
     TResult Function(BurgerByCategoryError value)? burgerByCategoryError,
+    TResult Function(HomePortionUpdated value)? homePortionUpdated,
     required TResult orElse(),
   }) {
     if (initial != null) {
@@ -315,6 +327,7 @@ class _$ChangeBottomNavBarTabImpl implements ChangeBottomNavBarTab {
     required TResult Function(List<BurgerModel> burgers)
         burgerByCategorySuccess,
     required TResult Function(String errorMessage) burgerByCategoryError,
+    required TResult Function(int portionCount) homePortionUpdated,
   }) {
     return changeBottomNavBarTab();
   }
@@ -330,6 +343,7 @@ class _$ChangeBottomNavBarTabImpl implements ChangeBottomNavBarTab {
     TResult? Function()? burgerByCategoryLoading,
     TResult? Function(List<BurgerModel> burgers)? burgerByCategorySuccess,
     TResult? Function(String errorMessage)? burgerByCategoryError,
+    TResult? Function(int portionCount)? homePortionUpdated,
   }) {
     return changeBottomNavBarTab?.call();
   }
@@ -345,6 +359,7 @@ class _$ChangeBottomNavBarTabImpl implements ChangeBottomNavBarTab {
     TResult Function()? burgerByCategoryLoading,
     TResult Function(List<BurgerModel> burgers)? burgerByCategorySuccess,
     TResult Function(String errorMessage)? burgerByCategoryError,
+    TResult Function(int portionCount)? homePortionUpdated,
     required TResult orElse(),
   }) {
     if (changeBottomNavBarTab != null) {
@@ -368,6 +383,7 @@ class _$ChangeBottomNavBarTabImpl implements ChangeBottomNavBarTab {
         burgerByCategorySuccess,
     required TResult Function(BurgerByCategoryError value)
         burgerByCategoryError,
+    required TResult Function(HomePortionUpdated value) homePortionUpdated,
   }) {
     return changeBottomNavBarTab(this);
   }
@@ -383,6 +399,7 @@ class _$ChangeBottomNavBarTabImpl implements ChangeBottomNavBarTab {
     TResult? Function(BurgerByCategoryLoading value)? burgerByCategoryLoading,
     TResult? Function(BurgerByCategorySuccess value)? burgerByCategorySuccess,
     TResult? Function(BurgerByCategoryError value)? burgerByCategoryError,
+    TResult? Function(HomePortionUpdated value)? homePortionUpdated,
   }) {
     return changeBottomNavBarTab?.call(this);
   }
@@ -398,6 +415,7 @@ class _$ChangeBottomNavBarTabImpl implements ChangeBottomNavBarTab {
     TResult Function(BurgerByCategoryLoading value)? burgerByCategoryLoading,
     TResult Function(BurgerByCategorySuccess value)? burgerByCategorySuccess,
     TResult Function(BurgerByCategoryError value)? burgerByCategoryError,
+    TResult Function(HomePortionUpdated value)? homePortionUpdated,
     required TResult orElse(),
   }) {
     if (changeBottomNavBarTab != null) {
@@ -461,6 +479,7 @@ class _$AllBurgerLoadingImpl implements AllBurgerLoading {
     required TResult Function(List<BurgerModel> burgers)
         burgerByCategorySuccess,
     required TResult Function(String errorMessage) burgerByCategoryError,
+    required TResult Function(int portionCount) homePortionUpdated,
   }) {
     return allBurgerLoading();
   }
@@ -476,6 +495,7 @@ class _$AllBurgerLoadingImpl implements AllBurgerLoading {
     TResult? Function()? burgerByCategoryLoading,
     TResult? Function(List<BurgerModel> burgers)? burgerByCategorySuccess,
     TResult? Function(String errorMessage)? burgerByCategoryError,
+    TResult? Function(int portionCount)? homePortionUpdated,
   }) {
     return allBurgerLoading?.call();
   }
@@ -491,6 +511,7 @@ class _$AllBurgerLoadingImpl implements AllBurgerLoading {
     TResult Function()? burgerByCategoryLoading,
     TResult Function(List<BurgerModel> burgers)? burgerByCategorySuccess,
     TResult Function(String errorMessage)? burgerByCategoryError,
+    TResult Function(int portionCount)? homePortionUpdated,
     required TResult orElse(),
   }) {
     if (allBurgerLoading != null) {
@@ -514,6 +535,7 @@ class _$AllBurgerLoadingImpl implements AllBurgerLoading {
         burgerByCategorySuccess,
     required TResult Function(BurgerByCategoryError value)
         burgerByCategoryError,
+    required TResult Function(HomePortionUpdated value) homePortionUpdated,
   }) {
     return allBurgerLoading(this);
   }
@@ -529,6 +551,7 @@ class _$AllBurgerLoadingImpl implements AllBurgerLoading {
     TResult? Function(BurgerByCategoryLoading value)? burgerByCategoryLoading,
     TResult? Function(BurgerByCategorySuccess value)? burgerByCategorySuccess,
     TResult? Function(BurgerByCategoryError value)? burgerByCategoryError,
+    TResult? Function(HomePortionUpdated value)? homePortionUpdated,
   }) {
     return allBurgerLoading?.call(this);
   }
@@ -544,6 +567,7 @@ class _$AllBurgerLoadingImpl implements AllBurgerLoading {
     TResult Function(BurgerByCategoryLoading value)? burgerByCategoryLoading,
     TResult Function(BurgerByCategorySuccess value)? burgerByCategorySuccess,
     TResult Function(BurgerByCategoryError value)? burgerByCategoryError,
+    TResult Function(HomePortionUpdated value)? homePortionUpdated,
     required TResult orElse(),
   }) {
     if (allBurgerLoading != null) {
@@ -642,6 +666,7 @@ class _$AllBurgersSuccessImpl implements AllBurgersSuccess {
     required TResult Function(List<BurgerModel> burgers)
         burgerByCategorySuccess,
     required TResult Function(String errorMessage) burgerByCategoryError,
+    required TResult Function(int portionCount) homePortionUpdated,
   }) {
     return allBurgersSuccess(burgers);
   }
@@ -657,6 +682,7 @@ class _$AllBurgersSuccessImpl implements AllBurgersSuccess {
     TResult? Function()? burgerByCategoryLoading,
     TResult? Function(List<BurgerModel> burgers)? burgerByCategorySuccess,
     TResult? Function(String errorMessage)? burgerByCategoryError,
+    TResult? Function(int portionCount)? homePortionUpdated,
   }) {
     return allBurgersSuccess?.call(burgers);
   }
@@ -672,6 +698,7 @@ class _$AllBurgersSuccessImpl implements AllBurgersSuccess {
     TResult Function()? burgerByCategoryLoading,
     TResult Function(List<BurgerModel> burgers)? burgerByCategorySuccess,
     TResult Function(String errorMessage)? burgerByCategoryError,
+    TResult Function(int portionCount)? homePortionUpdated,
     required TResult orElse(),
   }) {
     if (allBurgersSuccess != null) {
@@ -695,6 +722,7 @@ class _$AllBurgersSuccessImpl implements AllBurgersSuccess {
         burgerByCategorySuccess,
     required TResult Function(BurgerByCategoryError value)
         burgerByCategoryError,
+    required TResult Function(HomePortionUpdated value) homePortionUpdated,
   }) {
     return allBurgersSuccess(this);
   }
@@ -710,6 +738,7 @@ class _$AllBurgersSuccessImpl implements AllBurgersSuccess {
     TResult? Function(BurgerByCategoryLoading value)? burgerByCategoryLoading,
     TResult? Function(BurgerByCategorySuccess value)? burgerByCategorySuccess,
     TResult? Function(BurgerByCategoryError value)? burgerByCategoryError,
+    TResult? Function(HomePortionUpdated value)? homePortionUpdated,
   }) {
     return allBurgersSuccess?.call(this);
   }
@@ -725,6 +754,7 @@ class _$AllBurgersSuccessImpl implements AllBurgersSuccess {
     TResult Function(BurgerByCategoryLoading value)? burgerByCategoryLoading,
     TResult Function(BurgerByCategorySuccess value)? burgerByCategorySuccess,
     TResult Function(BurgerByCategoryError value)? burgerByCategoryError,
+    TResult Function(HomePortionUpdated value)? homePortionUpdated,
     required TResult orElse(),
   }) {
     if (allBurgersSuccess != null) {
@@ -826,6 +856,7 @@ class _$AllBurgerErrorImpl implements AllBurgerError {
     required TResult Function(List<BurgerModel> burgers)
         burgerByCategorySuccess,
     required TResult Function(String errorMessage) burgerByCategoryError,
+    required TResult Function(int portionCount) homePortionUpdated,
   }) {
     return allBurgerError(errorMessage);
   }
@@ -841,6 +872,7 @@ class _$AllBurgerErrorImpl implements AllBurgerError {
     TResult? Function()? burgerByCategoryLoading,
     TResult? Function(List<BurgerModel> burgers)? burgerByCategorySuccess,
     TResult? Function(String errorMessage)? burgerByCategoryError,
+    TResult? Function(int portionCount)? homePortionUpdated,
   }) {
     return allBurgerError?.call(errorMessage);
   }
@@ -856,6 +888,7 @@ class _$AllBurgerErrorImpl implements AllBurgerError {
     TResult Function()? burgerByCategoryLoading,
     TResult Function(List<BurgerModel> burgers)? burgerByCategorySuccess,
     TResult Function(String errorMessage)? burgerByCategoryError,
+    TResult Function(int portionCount)? homePortionUpdated,
     required TResult orElse(),
   }) {
     if (allBurgerError != null) {
@@ -879,6 +912,7 @@ class _$AllBurgerErrorImpl implements AllBurgerError {
         burgerByCategorySuccess,
     required TResult Function(BurgerByCategoryError value)
         burgerByCategoryError,
+    required TResult Function(HomePortionUpdated value) homePortionUpdated,
   }) {
     return allBurgerError(this);
   }
@@ -894,6 +928,7 @@ class _$AllBurgerErrorImpl implements AllBurgerError {
     TResult? Function(BurgerByCategoryLoading value)? burgerByCategoryLoading,
     TResult? Function(BurgerByCategorySuccess value)? burgerByCategorySuccess,
     TResult? Function(BurgerByCategoryError value)? burgerByCategoryError,
+    TResult? Function(HomePortionUpdated value)? homePortionUpdated,
   }) {
     return allBurgerError?.call(this);
   }
@@ -909,6 +944,7 @@ class _$AllBurgerErrorImpl implements AllBurgerError {
     TResult Function(BurgerByCategoryLoading value)? burgerByCategoryLoading,
     TResult Function(BurgerByCategorySuccess value)? burgerByCategorySuccess,
     TResult Function(BurgerByCategoryError value)? burgerByCategoryError,
+    TResult Function(HomePortionUpdated value)? homePortionUpdated,
     required TResult orElse(),
   }) {
     if (allBurgerError != null) {
@@ -984,6 +1020,7 @@ class _$BurgerByCategoryLoadingImpl implements BurgerByCategoryLoading {
     required TResult Function(List<BurgerModel> burgers)
         burgerByCategorySuccess,
     required TResult Function(String errorMessage) burgerByCategoryError,
+    required TResult Function(int portionCount) homePortionUpdated,
   }) {
     return burgerByCategoryLoading();
   }
@@ -999,6 +1036,7 @@ class _$BurgerByCategoryLoadingImpl implements BurgerByCategoryLoading {
     TResult? Function()? burgerByCategoryLoading,
     TResult? Function(List<BurgerModel> burgers)? burgerByCategorySuccess,
     TResult? Function(String errorMessage)? burgerByCategoryError,
+    TResult? Function(int portionCount)? homePortionUpdated,
   }) {
     return burgerByCategoryLoading?.call();
   }
@@ -1014,6 +1052,7 @@ class _$BurgerByCategoryLoadingImpl implements BurgerByCategoryLoading {
     TResult Function()? burgerByCategoryLoading,
     TResult Function(List<BurgerModel> burgers)? burgerByCategorySuccess,
     TResult Function(String errorMessage)? burgerByCategoryError,
+    TResult Function(int portionCount)? homePortionUpdated,
     required TResult orElse(),
   }) {
     if (burgerByCategoryLoading != null) {
@@ -1037,6 +1076,7 @@ class _$BurgerByCategoryLoadingImpl implements BurgerByCategoryLoading {
         burgerByCategorySuccess,
     required TResult Function(BurgerByCategoryError value)
         burgerByCategoryError,
+    required TResult Function(HomePortionUpdated value) homePortionUpdated,
   }) {
     return burgerByCategoryLoading(this);
   }
@@ -1052,6 +1092,7 @@ class _$BurgerByCategoryLoadingImpl implements BurgerByCategoryLoading {
     TResult? Function(BurgerByCategoryLoading value)? burgerByCategoryLoading,
     TResult? Function(BurgerByCategorySuccess value)? burgerByCategorySuccess,
     TResult? Function(BurgerByCategoryError value)? burgerByCategoryError,
+    TResult? Function(HomePortionUpdated value)? homePortionUpdated,
   }) {
     return burgerByCategoryLoading?.call(this);
   }
@@ -1067,6 +1108,7 @@ class _$BurgerByCategoryLoadingImpl implements BurgerByCategoryLoading {
     TResult Function(BurgerByCategoryLoading value)? burgerByCategoryLoading,
     TResult Function(BurgerByCategorySuccess value)? burgerByCategorySuccess,
     TResult Function(BurgerByCategoryError value)? burgerByCategoryError,
+    TResult Function(HomePortionUpdated value)? homePortionUpdated,
     required TResult orElse(),
   }) {
     if (burgerByCategoryLoading != null) {
@@ -1167,6 +1209,7 @@ class _$BurgerByCategorySuccessImpl implements BurgerByCategorySuccess {
     required TResult Function(List<BurgerModel> burgers)
         burgerByCategorySuccess,
     required TResult Function(String errorMessage) burgerByCategoryError,
+    required TResult Function(int portionCount) homePortionUpdated,
   }) {
     return burgerByCategorySuccess(burgers);
   }
@@ -1182,6 +1225,7 @@ class _$BurgerByCategorySuccessImpl implements BurgerByCategorySuccess {
     TResult? Function()? burgerByCategoryLoading,
     TResult? Function(List<BurgerModel> burgers)? burgerByCategorySuccess,
     TResult? Function(String errorMessage)? burgerByCategoryError,
+    TResult? Function(int portionCount)? homePortionUpdated,
   }) {
     return burgerByCategorySuccess?.call(burgers);
   }
@@ -1197,6 +1241,7 @@ class _$BurgerByCategorySuccessImpl implements BurgerByCategorySuccess {
     TResult Function()? burgerByCategoryLoading,
     TResult Function(List<BurgerModel> burgers)? burgerByCategorySuccess,
     TResult Function(String errorMessage)? burgerByCategoryError,
+    TResult Function(int portionCount)? homePortionUpdated,
     required TResult orElse(),
   }) {
     if (burgerByCategorySuccess != null) {
@@ -1220,6 +1265,7 @@ class _$BurgerByCategorySuccessImpl implements BurgerByCategorySuccess {
         burgerByCategorySuccess,
     required TResult Function(BurgerByCategoryError value)
         burgerByCategoryError,
+    required TResult Function(HomePortionUpdated value) homePortionUpdated,
   }) {
     return burgerByCategorySuccess(this);
   }
@@ -1235,6 +1281,7 @@ class _$BurgerByCategorySuccessImpl implements BurgerByCategorySuccess {
     TResult? Function(BurgerByCategoryLoading value)? burgerByCategoryLoading,
     TResult? Function(BurgerByCategorySuccess value)? burgerByCategorySuccess,
     TResult? Function(BurgerByCategoryError value)? burgerByCategoryError,
+    TResult? Function(HomePortionUpdated value)? homePortionUpdated,
   }) {
     return burgerByCategorySuccess?.call(this);
   }
@@ -1250,6 +1297,7 @@ class _$BurgerByCategorySuccessImpl implements BurgerByCategorySuccess {
     TResult Function(BurgerByCategoryLoading value)? burgerByCategoryLoading,
     TResult Function(BurgerByCategorySuccess value)? burgerByCategorySuccess,
     TResult Function(BurgerByCategoryError value)? burgerByCategoryError,
+    TResult Function(HomePortionUpdated value)? homePortionUpdated,
     required TResult orElse(),
   }) {
     if (burgerByCategorySuccess != null) {
@@ -1352,6 +1400,7 @@ class _$BurgerByCategoryErrorImpl implements BurgerByCategoryError {
     required TResult Function(List<BurgerModel> burgers)
         burgerByCategorySuccess,
     required TResult Function(String errorMessage) burgerByCategoryError,
+    required TResult Function(int portionCount) homePortionUpdated,
   }) {
     return burgerByCategoryError(errorMessage);
   }
@@ -1367,6 +1416,7 @@ class _$BurgerByCategoryErrorImpl implements BurgerByCategoryError {
     TResult? Function()? burgerByCategoryLoading,
     TResult? Function(List<BurgerModel> burgers)? burgerByCategorySuccess,
     TResult? Function(String errorMessage)? burgerByCategoryError,
+    TResult? Function(int portionCount)? homePortionUpdated,
   }) {
     return burgerByCategoryError?.call(errorMessage);
   }
@@ -1382,6 +1432,7 @@ class _$BurgerByCategoryErrorImpl implements BurgerByCategoryError {
     TResult Function()? burgerByCategoryLoading,
     TResult Function(List<BurgerModel> burgers)? burgerByCategorySuccess,
     TResult Function(String errorMessage)? burgerByCategoryError,
+    TResult Function(int portionCount)? homePortionUpdated,
     required TResult orElse(),
   }) {
     if (burgerByCategoryError != null) {
@@ -1405,6 +1456,7 @@ class _$BurgerByCategoryErrorImpl implements BurgerByCategoryError {
         burgerByCategorySuccess,
     required TResult Function(BurgerByCategoryError value)
         burgerByCategoryError,
+    required TResult Function(HomePortionUpdated value) homePortionUpdated,
   }) {
     return burgerByCategoryError(this);
   }
@@ -1420,6 +1472,7 @@ class _$BurgerByCategoryErrorImpl implements BurgerByCategoryError {
     TResult? Function(BurgerByCategoryLoading value)? burgerByCategoryLoading,
     TResult? Function(BurgerByCategorySuccess value)? burgerByCategorySuccess,
     TResult? Function(BurgerByCategoryError value)? burgerByCategoryError,
+    TResult? Function(HomePortionUpdated value)? homePortionUpdated,
   }) {
     return burgerByCategoryError?.call(this);
   }
@@ -1435,6 +1488,7 @@ class _$BurgerByCategoryErrorImpl implements BurgerByCategoryError {
     TResult Function(BurgerByCategoryLoading value)? burgerByCategoryLoading,
     TResult Function(BurgerByCategorySuccess value)? burgerByCategorySuccess,
     TResult Function(BurgerByCategoryError value)? burgerByCategoryError,
+    TResult Function(HomePortionUpdated value)? homePortionUpdated,
     required TResult orElse(),
   }) {
     if (burgerByCategoryError != null) {
@@ -1455,4 +1509,194 @@ abstract class BurgerByCategoryError implements HomeState {
   @JsonKey(includeFromJson: false, includeToJson: false)
   _$$BurgerByCategoryErrorImplCopyWith<_$BurgerByCategoryErrorImpl>
       get copyWith => throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class _$$HomePortionUpdatedImplCopyWith<$Res> {
+  factory _$$HomePortionUpdatedImplCopyWith(_$HomePortionUpdatedImpl value,
+          $Res Function(_$HomePortionUpdatedImpl) then) =
+      __$$HomePortionUpdatedImplCopyWithImpl<$Res>;
+  @useResult
+  $Res call({int portionCount});
+}
+
+/// @nodoc
+class __$$HomePortionUpdatedImplCopyWithImpl<$Res>
+    extends _$HomeStateCopyWithImpl<$Res, _$HomePortionUpdatedImpl>
+    implements _$$HomePortionUpdatedImplCopyWith<$Res> {
+  __$$HomePortionUpdatedImplCopyWithImpl(_$HomePortionUpdatedImpl _value,
+      $Res Function(_$HomePortionUpdatedImpl) _then)
+      : super(_value, _then);
+
+  /// Create a copy of HomeState
+  /// with the given fields replaced by the non-null parameter values.
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? portionCount = null,
+  }) {
+    return _then(_$HomePortionUpdatedImpl(
+      null == portionCount
+          ? _value.portionCount
+          : portionCount // ignore: cast_nullable_to_non_nullable
+              as int,
+    ));
+  }
+}
+
+/// @nodoc
+
+class _$HomePortionUpdatedImpl implements HomePortionUpdated {
+  const _$HomePortionUpdatedImpl(this.portionCount);
+
+  @override
+  final int portionCount;
+
+  @override
+  String toString() {
+    return 'HomeState.homePortionUpdated(portionCount: $portionCount)';
+  }
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _$HomePortionUpdatedImpl &&
+            (identical(other.portionCount, portionCount) ||
+                other.portionCount == portionCount));
+  }
+
+  @override
+  int get hashCode => Object.hash(runtimeType, portionCount);
+
+  /// Create a copy of HomeState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  @pragma('vm:prefer-inline')
+  _$$HomePortionUpdatedImplCopyWith<_$HomePortionUpdatedImpl> get copyWith =>
+      __$$HomePortionUpdatedImplCopyWithImpl<_$HomePortionUpdatedImpl>(
+          this, _$identity);
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() initial,
+    required TResult Function() changeBottomNavBarTab,
+    required TResult Function() allBurgerLoading,
+    required TResult Function(List<BurgerModel> burgers) allBurgersSuccess,
+    required TResult Function(String errorMessage) allBurgerError,
+    required TResult Function() burgerByCategoryLoading,
+    required TResult Function(List<BurgerModel> burgers)
+        burgerByCategorySuccess,
+    required TResult Function(String errorMessage) burgerByCategoryError,
+    required TResult Function(int portionCount) homePortionUpdated,
+  }) {
+    return homePortionUpdated(portionCount);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? initial,
+    TResult? Function()? changeBottomNavBarTab,
+    TResult? Function()? allBurgerLoading,
+    TResult? Function(List<BurgerModel> burgers)? allBurgersSuccess,
+    TResult? Function(String errorMessage)? allBurgerError,
+    TResult? Function()? burgerByCategoryLoading,
+    TResult? Function(List<BurgerModel> burgers)? burgerByCategorySuccess,
+    TResult? Function(String errorMessage)? burgerByCategoryError,
+    TResult? Function(int portionCount)? homePortionUpdated,
+  }) {
+    return homePortionUpdated?.call(portionCount);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? initial,
+    TResult Function()? changeBottomNavBarTab,
+    TResult Function()? allBurgerLoading,
+    TResult Function(List<BurgerModel> burgers)? allBurgersSuccess,
+    TResult Function(String errorMessage)? allBurgerError,
+    TResult Function()? burgerByCategoryLoading,
+    TResult Function(List<BurgerModel> burgers)? burgerByCategorySuccess,
+    TResult Function(String errorMessage)? burgerByCategoryError,
+    TResult Function(int portionCount)? homePortionUpdated,
+    required TResult orElse(),
+  }) {
+    if (homePortionUpdated != null) {
+      return homePortionUpdated(portionCount);
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(_Initial value) initial,
+    required TResult Function(ChangeBottomNavBarTab value)
+        changeBottomNavBarTab,
+    required TResult Function(AllBurgerLoading value) allBurgerLoading,
+    required TResult Function(AllBurgersSuccess value) allBurgersSuccess,
+    required TResult Function(AllBurgerError value) allBurgerError,
+    required TResult Function(BurgerByCategoryLoading value)
+        burgerByCategoryLoading,
+    required TResult Function(BurgerByCategorySuccess value)
+        burgerByCategorySuccess,
+    required TResult Function(BurgerByCategoryError value)
+        burgerByCategoryError,
+    required TResult Function(HomePortionUpdated value) homePortionUpdated,
+  }) {
+    return homePortionUpdated(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(_Initial value)? initial,
+    TResult? Function(ChangeBottomNavBarTab value)? changeBottomNavBarTab,
+    TResult? Function(AllBurgerLoading value)? allBurgerLoading,
+    TResult? Function(AllBurgersSuccess value)? allBurgersSuccess,
+    TResult? Function(AllBurgerError value)? allBurgerError,
+    TResult? Function(BurgerByCategoryLoading value)? burgerByCategoryLoading,
+    TResult? Function(BurgerByCategorySuccess value)? burgerByCategorySuccess,
+    TResult? Function(BurgerByCategoryError value)? burgerByCategoryError,
+    TResult? Function(HomePortionUpdated value)? homePortionUpdated,
+  }) {
+    return homePortionUpdated?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_Initial value)? initial,
+    TResult Function(ChangeBottomNavBarTab value)? changeBottomNavBarTab,
+    TResult Function(AllBurgerLoading value)? allBurgerLoading,
+    TResult Function(AllBurgersSuccess value)? allBurgersSuccess,
+    TResult Function(AllBurgerError value)? allBurgerError,
+    TResult Function(BurgerByCategoryLoading value)? burgerByCategoryLoading,
+    TResult Function(BurgerByCategorySuccess value)? burgerByCategorySuccess,
+    TResult Function(BurgerByCategoryError value)? burgerByCategoryError,
+    TResult Function(HomePortionUpdated value)? homePortionUpdated,
+    required TResult orElse(),
+  }) {
+    if (homePortionUpdated != null) {
+      return homePortionUpdated(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class HomePortionUpdated implements HomeState {
+  const factory HomePortionUpdated(final int portionCount) =
+      _$HomePortionUpdatedImpl;
+
+  int get portionCount;
+
+  /// Create a copy of HomeState
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  _$$HomePortionUpdatedImplCopyWith<_$HomePortionUpdatedImpl> get copyWith =>
+      throw _privateConstructorUsedError;
 }

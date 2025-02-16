@@ -16,6 +16,11 @@ class BurgerBlocBuilder extends StatelessWidget{
           return const GridOfFood(isLoading: true, burgers: [],);
         },
         allBurgersSuccess: (burgers) {
+          if(burgers.isEmpty){
+            return const SizedBox(
+              child: Center(child: Text('No data to show')),
+            );
+          }
           return GridOfFood(isLoading: false, burgers: burgers);
         },
         allBurgerError: (error) {

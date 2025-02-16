@@ -12,6 +12,8 @@ class HomeCubit extends Cubit<HomeState> {
   HomeCubit(this.homeRepo) : super(const HomeState.initial());
 
   int currentIndexOfPage = 0;
+  int portionCount = 1;
+
   List<Widget> screens = [
     const HomeScreen(),
     const FavouriteScreen(),
@@ -37,15 +39,25 @@ class HomeCubit extends Cubit<HomeState> {
   }
 
   Future<void> loadBurgersByCategory(String category) async {
-    emit(const HomeState.burgerByCategoryLoading());
+    emit(const HomeState.allBurgerLoading());
     try {
       final burgers = await homeRepo.loadBurgersByCategory(category);
-      emit(HomeState.burgerByCategorySuccess(burgers));
+      emit(HomeState.allBurgersSuccess(burgers));
     } catch (e) {
-      emit(HomeState.burgerByCategoryError(e.toString()));
+      emit(HomeState.allBurgerError(e.toString()));
     }
   }
 
+  void increasePortion() {
+    portionCount++;
+    emit(HomeState.homePortionUpdated(portionCount));
+  }
 
+  void decreasePortion() {
+    if (portionCount > 1) {
+      portionCount--;
+      emit(HomeState.homePortionUpdated(portionCount));
+    }
+  }
 
 }
