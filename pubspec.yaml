@@ -69,8 +69,6 @@ dependencies:
   shimmer: ^3.0.0
   #A Flutter package to use fonts from fonts.google.com.
   google_fonts: ^6.2.1
-  #A Flutter package that allows for dynamic expansion and collapse of text.
-#  readmore: ^3.0.0
   #A Flutter plugin for integrating Google Maps in iOS and Android applications.
   google_maps_flutter: ^2.9.0
   #Cross-platform plugin for easy access to device's location in real-time.
@@ -80,6 +78,8 @@ dependencies:
   #The Font Awesome Icon pack available as Flutter Icons. Provides 2000 additional icons to use in your apps.
   font_awesome_flutter: ^10.8.0
   curved_labeled_navigation_bar: ^2.0.5
+  flutter_tawkto: ^0.0.4
+  flutter_inappwebview: ^6.1.5
 
 
 dev_dependencies:
