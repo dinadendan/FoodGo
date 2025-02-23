@@ -28,6 +28,6 @@ class CustomServiceScreen extends StatelessWidget{
         ),
       ),
     );
-
   }
 }
+
