@@ -10,8 +10,6 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:food_go/core/routing/app_router.dart';
 import 'package:food_go/food_go.dart';
 
-import 'package:food_go/main.dart';
-
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
