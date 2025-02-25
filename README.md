@@ -7,7 +7,7 @@ FoodGo is your ultimate app for exploring a variety of delicious burgers and pla
 - 🍔 Explore Burger Types & Categories: Browse a variety of delicious burgers, categorized for easy selection.
 - 🛒 Seamless Ordering: Add your favorite burgers to the cart and place orders effortlessly.
 - 💳 Secure Payment: Enjoy multiple payment options for a smooth and safe checkout experience.
-- 📞 Customer Service: Get instant support for orders, payments, and inquiries.
+- 💬 Live Chat Support (Powered by Flutter Tawk) – Get instant help from customer service.
 - 🔔 Push Notifications: Get notified about new deals, order updates, and promotions.
 - 🌙 Dark Mode: Enjoy a user-friendly dark mode for a better browsing experience at night.
 
@@ -18,6 +18,7 @@ FoodGo is your ultimate app for exploring a variety of delicious burgers and pla
 - 🔑 Firebase Authentication: For secure user login and signup management.
 - 🔐 Flutter Secure Storage Package: To securely store sensitive user information, such as payment details.
 - 💾 Shared Preferences Package: Used exclusively for storing the user token.
+- 💬 Flutter Tawk: For real-time customer support chat integration.
 - 💳 Stripe: For secure and efficient payment processing.
 - 📍 Google Maps: Integrated for accurate user address selection.
 
