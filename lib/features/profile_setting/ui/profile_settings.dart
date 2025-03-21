@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:food_go/core/helper/spacing.dart';
@@ -84,7 +85,9 @@ class ProfileSettingsScreen extends StatelessWidget{
                 AppTextButton(
                     buttonText: 'Log Out',
                     textStyle: AppTextStyles.font20Black.copyWith(color: Colors.white),
-                    onPressed: (){},
+                    onPressed: (){
+                      FirebaseAuth.instance.signOut();
+                    },
                 ),
               ],
             ),

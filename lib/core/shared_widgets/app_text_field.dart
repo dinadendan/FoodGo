@@ -9,6 +9,7 @@ class AppTextFormField extends StatelessWidget {
   final InputBorder? enabledBorder;
   final InputBorder? errorBorder;
   final InputBorder? focusedErrorBorder;
+  final TextInputType? keyboardType;
   final TextStyle? inputTextStyle;
   final TextStyle? hintStyle;
   final String hintText;
@@ -35,13 +36,15 @@ class AppTextFormField extends StatelessWidget {
         this.focusNode,
         this.errorBorder,
         this.focusedErrorBorder,
-        required this.label});
+        required this.label,
+        this.keyboardType});
 
   @override
   Widget build(BuildContext context) {
     return TextFormField(
       controller: controller,
       focusNode: focusNode,
+      keyboardType: keyboardType,
       decoration: InputDecoration(
         labelText: label,
         isDense: true,

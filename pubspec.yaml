@@ -80,6 +80,8 @@ dependencies:
   curved_labeled_navigation_bar: ^2.0.5
   flutter_tawkto: ^0.0.4
   flutter_inappwebview: ^6.1.5
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
 
 
 dev_dependencies:

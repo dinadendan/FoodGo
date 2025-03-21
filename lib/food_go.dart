@@ -17,7 +17,7 @@ class FoodGo extends StatelessWidget{
         return MaterialApp(
           debugShowCheckedModeBanner: false,
           theme: lightTheme,
-          initialRoute: Routes.homeLayout,
+          initialRoute: Routes.login,
           onGenerateRoute: appRouter.generateRoute,
         );
       },
